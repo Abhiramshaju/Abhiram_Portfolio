@@ -1776,3 +1776,14 @@ footer {
         grid-column: auto;
     }
 }
+.certification-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
+}
+
+.certification-link:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}
